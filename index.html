@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Miguel Christian N. Polison — Digital Forensics &amp; Software Engineering</title>
+<meta name="description" content="Portfolio of Miguel Christian N. Polison — BS Computer Science, Digital Forensics specialization. Software development, forensic investigation, and freelance builds.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Inter:wght@300;400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav" id="nav">
+  <a href="#top" class="nav-mark">M.POLISON</a>
+  <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+    <span></span><span></span>
+  </button>
+  <div class="nav-links" id="navLinks">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#freelance">Freelance</a>
+    <a href="#contact">Contact</a>
+    <a href="assets/Miguel_Polison_Resume.pdf" class="nav-cta" target="_blank" rel="noopener">Résumé ↗</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header id="top">
+  <div class="hero-label mono">DIGITAL FORENSICS · SOFTWARE ENGINEERING · MANILA, PH</div>
+  <div class="hero-inner">
+    <!-- LEFT — dark panel -->
+    <div class="hero-left-panel">
+      <h1 class="hero-title">
+        Miguel<br>
+        <span class="hero-title-outline">Polison</span><br>
+        N. Polison
+     </h1>
+    </div>
+    <!-- RIGHT — light panel -->
+    <div class="hero-right-panel">
+      <div class="hero-right">
+        <p class="hero-sub">
+          I build systems that keep evidence honest — and the software around them.
+          BS Computer Science, Digital Forensics specialization, National University Manila.
+          Graduating September 2026.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+        </div>
+        <div class="hero-meta mono">
+          <span><span class="label">Time</span><span id="clock">—</span></span>
+          <span><span class="label">Mail</span><a href="mailto:mcpolison@email.com">mcpolison@email.com</a></span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="hero-rule"></div>
+</header>
+
+<main>
+
+  <!-- ── ABOUT ──────────────────────────────────────── -->
+  <section class="section" id="about" data-index="01">
+    <div class="section-inner">
+      <div class="section-head">
+        <span class="section-tag mono">About</span>
+        <h2>Two disciplines,<br>one habit of mind.</h2>
+      </div>
+      <div class="about-grid">
+        <p class="about-lead">
+          I specialize in digital forensics — recovering, verifying, and explaining
+          evidence from memory, disk, and network traffic — and in building the software
+          that makes that work possible. Both disciplines demand the same thing: a documented,
+          defensible chain from raw data to a conclusion someone else can trust.
+        </p>
+        <dl class="about-facts mono">
+          <div class="fact-row">
+            <dt>Based in</dt>
+            <dd>Manila, Philippines</dd>
+          </div>
+          <div class="fact-row">
+            <dt>Degree</dt>
+            <dd>BS Computer Science — Digital Forensics</dd>
+          </div>
+          <div class="fact-row">
+            <dt>Graduating</dt>
+            <dd>September 2, 2026</dd>
+          </div>
+          <div class="fact-row">
+            <dt>Open to</dt>
+            <dd>DFIR · Software Eng. · Cybersecurity</dd>
+          </div>
+          <div class="fact-row">
+            <dt>GitHub</dt>
+            <dd><a href="https://github.com/megelclarkchangcoco" target="_blank" rel="noopener">megelclarkchangcoco</a></dd>
+          </div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SKILLS ─────────────────────────────────────── -->
+  <section class="section" id="skills" data-index="02">
+    <div class="section-inner">
+      <div class="section-head">
+        <span class="section-tag mono">Skills</span>
+        <h2>Toolkit,<br>by domain.</h2>
+      </div>
+
+      <!-- Domain tabs -->
+      <div class="tab-row" role="tablist">
+        <button class="tab active" role="tab" aria-selected="true" data-tab="forensics">Digital Forensics</button>
+        <button class="tab" role="tab" aria-selected="false" data-tab="web">Web Dev</button>
+        <button class="tab" role="tab" aria-selected="false" data-tab="android">Android</button>
+        <button class="tab" role="tab" aria-selected="false" data-tab="tools">Dev Tools</button>
+        <button class="tab" role="tab" aria-selected="false" data-tab="ai">AI Tools</button>
+      </div>
+
+      <!-- Forensics -->
+      <div class="tab-panel active" id="tab-forensics">
+        <div class="skill-block">
+          <div class="skill-group">
+            <div class="sg-label mono">Disciplines</div>
+            <div class="sg-pills">
+              <span>Network Forensics</span>
+              <span>Memory Forensics</span>
+              <span>Disk Forensics</span>
+              <span>Malware Analysis</span>
+              <span>Incident Response</span>
+              <span>Chain of Custody</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <div class="sg-label mono">Tools</div>
+            <div class="sg-pills">
+              <span class="pill-hi">Wireshark</span>
+              <span class="pill-hi">Volatility</span>
+              <span class="pill-hi">Autopsy</span>
+              <span class="pill-hi">Magnet AXIOM</span>
+              <span class="pill-hi">AMPED</span>
+              <span class="pill-hi">FTK Imager</span>
+              <span class="pill-hi">Metasploit</span>
+              <span class="pill-hi">Burp Suite</span>
+              <span class="pill-hi">Nmap</span>
+              <span class="pill-hi">ZAP</span>
+              <span class="pill-hi">PEview</span>
+              <span class="pill-hi">CFF Explorer</span>
+              <span class="pill-hi">Process Monitor</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <div class="sg-label mono">ML / AI</div>
+            <div class="sg-pills">
+              <span>CNN Siamese Networks</span>
+              <span>Vision Mamba</span>
+              <span>Contrastive Learning</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <div class="sg-label mono">Systems</div>
+            <div class="sg-pills">
+              <span>Windows</span>
+              <span>Linux</span>
+              <span>Python scripting</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Web -->
+      <div class="tab-panel" id="tab-web">
+        <div class="skill-block">
+          <div class="skill-group">
+            <div class="sg-label mono">Languages</div>
+            <div class="sg-pills">
+              <span class="pill-hi">Python</span>
+              <span class="pill-hi">JavaScript</span>
+              <span class="pill-hi">PHP</span>
+              <span class="pill-hi">Java</span>
+              <span class="pill-hi">HTML</span>
+              <span class="pill-hi">CSS</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <div class="sg-label mono">Frameworks &amp; Backend</div>
+            <div class="sg-pills">
+              <span>Laravel</span>
+              <span>Laravel Herb</span>
+              <span>Spring Boot</span>
+              <span>FastAPI</span>
+              <span>Node.js</span>
+              <span>Electron</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <div class="sg-label mono">Data &amp; Infra</div>
+            <div class="sg-pills">
+              <span>MySQL</span>
+              <span>PostgreSQL</span>
+              <span>MongoDB</span>
+              <span>Firebase</span>
+              <span>NoSQL</span>
+              <span>Docker</span>
+              <span>Vercel</span>
+              <span>PWA</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <div class="sg-label mono">Design</div>
+            <div class="sg-pills">
+              <span class="pill-hi">Figma</span>
+              <span>Canva</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Android -->
+      <div class="tab-panel" id="tab-android">
+        <div class="skill-block">
+          <div class="skill-group">
+            <div class="sg-label mono">Platform</div>
+            <div class="sg-pills">
+              <span class="pill-hi">Java (Android)</span>
+              <span class="pill-hi">Android Studio</span>
+              <span class="pill-hi">Android SDK</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <div class="sg-label mono">Data</div>
+            <div class="sg-pills">
+              <span>SQLite</span>
+              <span>Firebase Realtime DB</span>
+              <span>Shared Preferences</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <div class="sg-label mono">Features</div>
+            <div class="sg-pills">
+              <span>CRUD Operations</span>
+              <span>Push Notifications</span>
+              <span>Priority Tagging</span>
+              <span>Offline Storage</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Dev Tools (new tab) -->
+      <div class="tab-panel" id="tab-tools">
+        <div class="skill-block">
+          <div class="skill-group">
+            <div class="sg-label mono">IDEs &amp; Editors</div>
+            <div class="sg-pills">
+              <span class="pill-hi">VS Code</span>
+              <span class="pill-hi">IntelliJ IDEA</span>
+              <span class="pill-hi">PhpStorm</span>
+              <span class="pill-hi">Eclipse IDE</span>
+              <span>Android Studio</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <div class="sg-label mono">Database Clients</div>
+            <div class="sg-pills">
+              <span class="pill-hi">MySQL Workbench</span>
+              <span>MongoDB Compass</span>
+              <span>pgAdmin (PostgreSQL)</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <div class="sg-label mono">Design &amp; Collaboration</div>
+            <div class="sg-pills">
+              <span class="pill-hi">Figma</span>
+              <span>Canva</span>
+              <span>Microsoft Teams</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <div class="sg-label mono">Version Control &amp; Deploy</div>
+            <div class="sg-pills">
+              <span>Git</span>
+              <span>GitHub</span>
+              <span>Docker</span>
+              <span>Vercel</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- AI Tools (new tab) -->
+      <div class="tab-panel" id="tab-ai">
+        <div class="skill-block">
+          <div class="skill-group">
+            <div class="sg-label mono">AI Assistants</div>
+            <div class="sg-pills">
+              <span class="pill-hi">Claude (Anthropic)</span>
+              <span class="pill-hi">ChatGPT</span>
+              <span class="pill-hi">Cursor</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <div class="sg-label mono">Use Cases</div>
+            <div class="sg-pills">
+              <span>Code Generation</span>
+              <span>Debugging Assistance</span>
+              <span>Report Writing</span>
+              <span>Research Summarization</span>
+              <span>Prompt Engineering</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── EXPERIENCE ──────────────────────────────────── -->
+  <section class="section" id="experience" data-index="03">
+    <div class="section-inner">
+      <div class="section-head">
+        <span class="section-tag mono">Experience</span>
+        <h2>Field record.</h2>
+      </div>
+      <div class="timeline">
+
+        <div class="tl-item reveal">
+          <div class="tl-date mono">MAR — MAY 2026</div>
+          <div class="tl-bar"></div>
+          <div class="tl-body">
+            <div class="tl-role">Digital Forensics Examiner Trainee (Internship)</div>
+            <div class="tl-org mono">National Bureau of Investigation — Digital Forensics Division, Manila · 400 hrs</div>
+            <ul class="tl-list">
+              <li>Examined digital evidence using Magnet AXIOM, performing data extraction and analysis from storage and mobile devices.</li>
+              <li>Enhanced and analyzed digital incident video footage using AMPED software to support investigative findings.</li>
+              <li>Trained in proper handling, documentation, and chain-of-custody procedures for digital evidence in accordance with NBI standards.</li>
+              <li>Managed and processed confidential evidence documentation, ensuring accuracy and integrity of forensic reports.</li>
+              <li>Represented the NBI Digital Forensics Division at regional hiring events, gaining exposure to operational law enforcement processes.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="tl-item reveal">
+          <div class="tl-date mono">JUN — JAN 2023</div>
+          <div class="tl-bar"></div>
+          <div class="tl-body">
+            <div class="tl-role">Maintenance Crew</div>
+            <div class="tl-org mono">McDonald's Morayta, Manila · Part-time</div>
+            <ul class="tl-list">
+              <li>Delivered high-quality customer service during events and peak gatherings.</li>
+              <li>Handled store upkeep and basic equipment checks to keep service running smoothly.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="tl-item reveal">
+          <div class="tl-date mono">JUN 2018 — PRESENT</div>
+          <div class="tl-bar"></div>
+          <div class="tl-body">
+            <div class="tl-role">Photobooth Assistant</div>
+            <div class="tl-org mono">Blissful Shots, Tondo, Manila · Part-time / Family Business</div>
+            <ul class="tl-list">
+              <li>Designed and edited photo layout templates in Photoshop for event printouts.</li>
+              <li>Performed routine equipment maintenance and electrical checks to keep the booth fully functional.</li>
+              <li>Operated booth in fast-paced live event settings ensuring smooth, efficient service.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PROJECTS ────────────────────────────────────── -->
+  <section class="section" id="projects" data-index="04">
+    <div class="section-inner">
+      <div class="section-head">
+        <span class="section-tag mono">Projects</span>
+        <h2>Selected work.</h2>
+      </div>
+      <div class="project-grid">
+
+        <article class="project-card reveal">
+          <div class="pc-thumb">
+            <img src="assets/img/signuity.png" alt="Offline Signature Verification" loading="lazy">
+            <div class="pc-mono" aria-hidden="true">SVM</div>
+          </div>
+          <div class="pc-body">
+            <div class="pc-meta">
+              <span class="pc-year">2025 · THESIS</span>
+              <span class="pc-domain">DIGITAL FORENSICS · ML</span>
+            </div>
+            <h3>Offline Signature Verification — Siamese Vision Mamba</h3>
+            <p>A Siamese Vision Mamba network with contrastive loss for multi-reference offline signature verification, deployed as a FastAPI + Docker app. Accepted at an international conference.</p>
+            <div class="pc-stack"><span>Python</span><span>FastAPI</span><span>Docker</span></div>
+            <div class="pc-outcome">Conference-accepted · Audit-ready reporting</div>
+          </div>
+        </article>
+
+                <article class="project-card reveal">
+          <div class="pc-thumb">
+            <img src="assets/img/seek4smile.png" alt="Seek4Smile dental system" loading="lazy">
+            <div class="pc-mono" aria-hidden="true">S4S</div>
+          </div>
+          <div class="pc-body">
+            <div class="pc-meta">
+              <span class="pc-year">2024 – 2025</span>
+              <span class="pc-domain">WEB DEVELOPMENT</span>
+            </div>
+            <h3>Seek4Smile — Dental Appointment System</h3>
+            <p>Full-stack dental booking platform with real-time patient–doctor chat, custom payment flow, automated digital receipts, prescription writing, and admin dashboard.</p>
+            <div class="pc-stack"><span>PHP</span><span>MySQL</span><span>HTML/CSS</span><span>JavaScript</span></div>
+            <div class="pc-outcome">Live booking · Chat · Payment flows in production</div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="pc-thumb">
+            <img src="assets/img/User_Manual.png" alt="Keep It Up Android app" loading="lazy">
+            <div class="pc-mono" aria-hidden="true">KIU</div>
+          </div>
+          <div class="pc-body">
+            <div class="pc-meta">
+              <span class="pc-year">2025</span>
+              <span class="pc-domain">ANDROID</span>
+            </div>
+            <h3>Keep It Up — Android Task Manager</h3>
+            <p>Android app with full CRUD task management, priority tagging, due-date notifications, and daily maintenance logging built to support work-life balance.</p>
+            <div class="pc-stack"><span>Java</span><span>Android Studio</span><span>SQLite</span></div>
+            <div class="pc-outcome">Task tracking · Local notification system</div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="pc-thumb">
+            <img src="assets/img/reverse_engineering_mobile.png" alt="Mobile Forensic Investigation" loading="lazy">
+            <div class="pc-mono" aria-hidden="true">KIU</div>
+          </div>
+          <div class="pc-body">
+            <div class="pc-meta">
+              <span class="pc-year">2025</span>
+              <span class="pc-domain">ANDROID</span>
+            </div>
+            <h3>Mobile Forensic and Device Investigation</h3>
+            <p>Conducted mobile forensics by reverse‑engineering a malicious APK, recovering account credentials, validating root access, and producing case documentation for evidence handling and timeline reconstruction.</p>
+            <div class="pc-stack"><span>>Android ADB</spans><span>ADB Extractor</spans><span>ADBTool Kit</span><span>JADX-GUI</span><span>APK Studio</span><span>Autopsy</span><span>SQLite</span></div>
+            <div class="pc-outcome">Reverse‑Engineering a malicious APK</div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="pc-thumb">
+            <img src="assets/img/network_forensic.png" alt="Network Forensics" loading="lazy">
+            <div class="pc-mono" aria-hidden="true">NF</div>
+          </div>
+          <div class="pc-body">
+            <div class="pc-meta">
+              <span class="pc-year">2025</span>
+              <span class="pc-domain">NETWORK FORENSICS</span>
+            </div>
+            <h3>Network Forensics &amp; Attack Simulation</h3>
+            <p>Analyzed packet captures to isolate beaconing, C2 traffic, and ARP poisoning. Simulated DoS and MITM attacks and authored a SOC playbook for incident handling.</p>
+            <div class="pc-stack"><span>Wireshark</span><span>Metasploit</span><span>Burp Suite</span><span>Nmap</span><span>OPNSense</span><span>Linux</span></div>
+            <div class="pc-outcome">SOC playbook · Rate-limiting &amp; HSTS recommendations</div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="pc-thumb">
+            <img src="assets/img/malware_analysis.jpg" alt="Malware Analysis" loading="lazy">
+            <div class="pc-mono" aria-hidden="true">MA</div>
+          </div>
+          <div class="pc-body">
+            <div class="pc-meta">
+              <span class="pc-year">2025</span>
+              <span class="pc-domain">MALWARE ANALYSIS</span>
+            </div>
+            <h3>Malware Analysis — Binary Investigation</h3>
+            <p>Investigated malicious binaries using PEview, Process Monitor, and CFF Explorer to trace infection vectors and system impact. Produced recovery plans and security recommendations.</p>
+            <div class="pc-stack"><span>PEview</span><span>Process Monitor</span><span>CFF Explorer</span></div>
+            <div class="pc-outcome">Recovery plan · Infection-vector trace documented</div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FREELANCE ───────────────────────────────────── -->
+  <section class="section" id="freelance" data-index="05">
+    <div class="section-inner">
+      <div class="section-head">
+        <span class="section-tag mono">Freelance</span>
+        <h2>Client work,<br>delivered.</h2>
+      </div>
+      <p class="section-intro">
+        Outside of school and internship I take on client builds —
+        websites, systems, and Android apps.
+      </p>
+      <div class="freelance-list">
+
+        <div class="fl-item reveal">
+          <div class="fl-header">
+            <span class="fl-type mono">WEB · FULLSTACK</span>
+            <span class="fl-status mono">DELIVERED</span>
+          </div>
+          <h3>ComLab Inventory &amp; Monitoring System</h3>
+          <p>
+            Full-stack computer laboratory management system for an institution.
+            Admin can monitor all PCs in real-time — detecting hardware/peripheral issues,
+            tracking component specs, and logging student and professor login sessions
+            with time-in records. Users (students &amp; faculty) have their own dashboard
+            showing connected peripherals and session history.
+          </p>
+          <div class="fl-stack mono">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Python</span><span>FastAPI</span>
+          </div>
+        </div>
+
+        <div class="fl-item reveal">
+          <div class="fl-header">
+            <span class="fl-type mono">WEB · FULLSTACK</span>
+            <span class="fl-status mono">DELIVERED</span>
+          </div>
+          <h3>Salon Inventory &amp; Product Management System</h3>
+          <p>
+            Inventory system for a salon business — staff can add, scan, and manage
+            products with barcode scanning support. Includes category filtering,
+            status tracking, expiration alerts, and trending product analytics.
+            Admin controls the full product database with a role-based dashboard.
+          </p>
+          <div class="fl-stack mono">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Node.js</span><span>PostgreSQL</span>
+          </div>
+        </div>
+
+        <div class="fl-item reveal">
+          <div class="fl-header">
+            <span class="fl-type mono">ANDROID · APP</span>
+            <span class="fl-status mono">DELIVERED</span>
+          </div>
+          <h3>Custom Android Utility App</h3>
+          <p>
+            Bespoke Android application for a client's daily operations —
+            CRUD features, local SQLite storage, and custom notification workflows.
+          </p>
+          <div class="fl-stack mono">
+            <span>Java</span><span>Android Studio</span><span>SQLite</span>
+          </div>
+        </div>
+
+        <div class="fl-item fl-cta reveal">
+          <div class="fl-header">
+            <span class="fl-type mono">OPEN FOR WORK</span>
+            <span class="fl-status mono available">AVAILABLE</span>
+          </div>
+          <h3>Have a project in mind?</h3>
+          <p>
+            I take on freelance builds — web systems, Android apps, and forensic tooling.
+            Reach out and let's talk.
+          </p>
+          <a href="#contact" class="btn btn-primary">Let's work together →</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── EDUCATION ───────────────────────────────────── -->
+  <section class="section section-tight" id="education">
+    <div class="section-inner">
+      <div class="section-head">
+        <span class="section-tag mono">Education</span>
+        <h2>Record of study.</h2>
+      </div>
+      <div class="edu-list mono">
+        <div class="edu-row reveal">
+          <span class="edu-year">2022 – 2026</span>
+          <span class="edu-name">BS Computer Science, Digital Forensics — National University, Manila</span>
+          <span class="edu-status">Graduating Sep 2026</span>
+        </div>
+        <div class="edu-row reveal">
+          <span class="edu-year">2020 – 2022</span>
+          <span class="edu-name">ICT — Senior High School — AMA Computer Learning Center, Manila</span>
+          <span class="edu-status">Completed</span>
+        </div>
+        <div class="edu-row reveal">
+          <span class="edu-year">2016 – 2020</span>
+          <span class="edu-name">Cayetano Arellano High School — Santa Cruz, Manila</span>
+          <span class="edu-status">Completed</span>
+        </div>
+        <div class="edu-row reveal">
+          <span class="edu-year">2010 – 2016</span>
+          <span class="edu-name">Padre Mariano Gomez Elementary — Santa Cruz, Manila</span>
+          <span class="edu-status">Completed</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CONTACT ─────────────────────────────────────── -->
+  <section class="section" id="contact" data-index="06">
+    <div class="section-inner">
+      <div class="section-head">
+        <span class="section-tag mono">Contact</span>
+        <h2>Let's work<br>together.</h2>
+      </div>
+      <div class="contact-wrap">
+        <div class="contact-info">
+          <p>
+            Have a role, a project, or a question? Send a message and I'll
+            get back to you directly — usually within a day or two.
+          </p>
+          <ul class="contact-channels mono">
+            <li>
+              <span class="ch-key">Email</span>
+              <a href="mailto:mcpolison@email.com">mcpolison@email.com</a>
+            </li>
+            <li>
+              <span class="ch-key">Phone</span>
+              <a href="tel:+639668992983">+63 966 899 2983</a>
+            </li>
+            <li>
+              <span class="ch-key">LinkedIn</span>
+              <a href="https://linkedin.com/in/miguel-polison" target="_blank" rel="noopener">miguel-polison</a>
+            </li>
+            <li>
+              <span class="ch-key">GitHub</span>
+              <a href="https://github.com/megelclarkchangcoco" target="_blank" rel="noopener">megelclarkchangcoco</a>
+            </li>
+          </ul>
+        </div>
+
+        <form id="contactForm" class="contact-form" novalidate>
+          <div class="field">
+            <label for="name" class="mono">Name</label>
+            <input type="text" id="name" name="name" autocomplete="name" required>
+          </div>
+          <div class="field">
+            <label for="email" class="mono">Email</label>
+            <input type="email" id="email" name="email" autocomplete="email" required>
+          </div>
+          <div class="field">
+            <label for="message" class="mono">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <!-- honeypot -->
+          <div class="hp-field" aria-hidden="true">
+            <label for="company">Company</label>
+            <input type="text" id="company" name="company" tabindex="-1" autocomplete="off">
+          </div>
+          <button type="submit" class="btn btn-primary btn-submit" id="submitBtn">
+            <span class="btn-label">Send message</span>
+          </button>
+          <p class="form-status mono" id="formStatus" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <span class="mono">© <span id="year"></span> Miguel Christian N. Polison</span>
+  <span class="footer-mid mono">Manila, Philippines</span>
+  <a href="#top" class="footer-top mono">↑ Top</a>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

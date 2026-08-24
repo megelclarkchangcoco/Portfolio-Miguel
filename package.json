@@ -1,0 +1,9 @@
+{
+  "name": "miguel-polison-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portfolio site for Miguel Christian N. Polison, with a serverless contact form (Vercel + Resend).",
+  "scripts": {
+    "dev": "vercel dev"
+  }
+}
